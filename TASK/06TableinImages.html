@@ -8,45 +8,94 @@
 <body>
     <h1>Table in Images</h1>
     <hr>
-    <table border="1" width="70%" height="500px">
+    <table border="1" width="80%" height="500px">
        <tr>
-        <td rowspan="1" colspan="2">1.1</td>
-        <td rowspan="1"  colspan="2">1.2</td>
+        <td  colspan="2">1.1</td>
+        <td  colspan="2">1.2</td>
         <td rowspan="4" width="15%">
-
             <table border="1" cellpadding="75px">
                 <tr><td>3.1</td></tr>
                 <tr><td>3.2</td></tr>
                 <tr><td>3.2</td></tr>
             </table>
         </td>
-        <td colspan="2">1.4</td>
-        <td colspan="2" height="20%">1.5</td>
+        <td rowspan="4" colspan="2" width="11%" >
+            <table border="1" cellpadding="53px">
+                <tr><td>4.1</td></tr>
+                <tr><td>4.2</td></tr>
+                <tr><td>4.3</td></tr>
+                <tr><td>4.4</td></tr>
+            </table>
+                <!-- <table border="1" width="25%"  >
+                    <tr>
+                        <td>1.1</td>
+                        <td>1.2</td>
+                        <td>1.3</td>
+                        <td>1.4</td>
+                    </tr>       
+                </table> -->
+            </td>
+        <td rowspan="4" colspan="2" width="13%" >
+            <table border="1" cellpadding="70px">
+                <tr><td rowspan="1">
+                    <table border="1">
+                        <tr>
+                            <td>1.1</td>
+                            <td>1.2</td>
+                            <td>1.3</td>
+                            <td>1.4</td>
+                        </tr>
+                        <tr>
+                            <td>2.1</td>
+                            <td>2.2</td>
+                            <td>2.3</td>
+                            <td>2.4</td>
+                        </tr>       
+                    </table>
+                </td></tr>
+                <tr><td>5.2</td></tr>
+                <tr><td>5.3</td></tr>
+                
+            </table>
+        </td>
+        <!-- <td colspan="2" width="10%" >
+            <table border="1" width="25%"  >
+                <tr>
+                    <td>1.1</td>
+                    <td>1.2</td>
+                    <td>1.3</td>
+                    <td>1.4</td>
+                </tr>
+                <tr>
+                    <td>2.1</td>
+                    <td>2.2</td>
+                    <td>2.3</td>
+                    <td>2.4</td>
+                </tr>       
+            </table>
+        </td> -->
         </tr>
+
        <tr>
         <td rowspan="1">2.1</td>
         <td>2.2</td>
         <td colspan="2">2.3</td>
-        <td colspan="2">2.4</td>
-        <td >2.5</td>
-        <td>2.6</td>
        </tr>
+
        <tr>
         <td rowspan="1" colspan="2">3.1</td>
         <td colspan="2">3.2</td>
-        <td colspan="2">3.3</td>
-        <td>3.4</td>
-        <td>3.5</td>
+        
        </tr>
+
        <tr>
         <td rowspan="1" colspan="2">4.1</td>
         <td>4.2</td>
         <td>4.3</td>
-       <td>4.4</td>
-        <td>4.5</td>
         
        </tr>
        
     </table>
+   
 </body>
 </html>
