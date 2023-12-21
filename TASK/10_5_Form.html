@@ -6,55 +6,60 @@
     <title>5 Form</title>
 </head>
 <body>
-    <table border="1" width="25%" height="550px">
+    <table border="" width="50%" height="550px">
         <form action="" method="" id="">
         <tr>
             <th width="50%">
-                    <input type="text" name="parentfirstname" id="" placeholder="First">
+                  <label for="parentfirstname">Parent/guardion name.</label>  
+                    <input type="text" name="parentfirstname" id="parentfirstname" placeholder="First">
             </th>
+            <td width="50%"><br>
+                <input type="text" name="parentuserlastname" id="parentuserlastname" placeholder="Last">
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <p>How oldyour child will be when they start out the school year:</p>
+                <input type="text" name="useryear" id="useryear">
+            </th>
+        </tr>
+        <tr>
             <th width="50%">
-                <input type="text" name="parentuserlastname" id="" placeholder="Last">
+                <label for="childfirstname">Child name.</label>
+                <input type="text" name="childfirstname" id="childfirstname" placeholder="First">
+            </th>
+            <td width="50%"><br>
+                <input type="text" name="childlastname" id="childlastname" placeholder="Last">
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">
+                <label for="comesfrom">The school he comes from.</label>
+                <input type="tel" name="comesfrom" id="comesfrom">
             </th>
         </tr>
         <tr>
             <th colspan="2">
-                <input type="text" name="useryaer" id="">
-            </th>
-        </tr>
-        <tr>
-            <th width="50%">
-                <input type="text" name="childfirstname" id="" placeholder="First">
-            </th>
-            <th width="50%">
-                <input type="text" name="childlastname" id="" placeholder="Last">
+                <label for="streetaddsress">Home address:</label>
+                <input type="text" name="streetaddsress" id="streetaddsress" placeholder="Street Address">
             </th>
         </tr>
         <tr>
             <th colspan="2">
-                <input type="tel" name="comesfrom" id="">
-            </th>
-        </tr>
-        <tr>
-            <th colspan="2">
-                <input type="text" name="streetaddsress" id="" placeholder="Street Address">
-            </th>
-        </tr>
-        <tr>
-            <th colspan="2">
-                <input type="text" name="streetaddsress2" id="" placeholder="Street Address line">
+                <input type="text" name="streetaddsress2" id="streetaddsress" placeholder="Street Address line">
             </th>
         </tr>
         <tr>
             <th width="50%">
-                <input type="text" name="city" id="" placeholder="City">
+                <input type="text" name="city" id="city" placeholder="City">
             </th>
-            <th width="50%">
-                <input type="text" name="region" id="" placeholder="Region">
-            </th>
+            <td width="50%">
+                <input type="text" name="region" id="region" placeholder="Region">
+            </td>
         </tr>
         <tr>
             <th width="50%">
-                <input type="number" name="zipcode" id="" placeholder="Postal/Zip code">
+                <input type="number" name="zipcode" id="zipcode" placeholder="Postal/Zip code">
             </th>
             <th width="50%">
                 <select name="country" id="country1">
@@ -66,7 +71,8 @@
         </tr>
         <tr>
             <th colspan="2">
-                <input type="tel" name="phonenumber" id="" placeholder="Phone Number">
+                <label for="phonenumber">Phone number:</label>
+                <input type="tel" name="phonenumber" id="" placeholder="Phone number ##########">
             </th>
         </tr>
         <tr>
@@ -77,24 +83,7 @@
     </form>
     </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<hr>
 
 
     <!-- <h1>Form 1</h1>
